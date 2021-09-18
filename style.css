@@ -49,13 +49,22 @@ body {
     margin-top: 70px;
     background-image: url(images/about-bg.jpg);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .about-half {
     width: 50%;
 }
 .about-half img {
     width: 40%;
-
+    margin-top: 40px;
+}
+.about-half h1 {
+    color: #2d3436;
+    font-size: 35px;
+}
+.about-half p {
+    width: 60%;
+    margin-bottom: 100px;
 }
 
 
