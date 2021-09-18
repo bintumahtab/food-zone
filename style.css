@@ -41,8 +41,6 @@ body {
 
 
 
-
-
 .about-container {
     display: flex;
     padding-left: 150px;
@@ -70,7 +68,39 @@ body {
 
 
 
-
-
-
-
+.recipie-container {
+    text-align: center;
+}
+.recipie h2 {
+    text-align: center;
+    color: #2d3436;
+    font-size: 30px;
+}
+.recipie p {
+    color: #636e72;
+    width: 50%;
+    padding-left: 350px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.menu {
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.menu img {
+    border-radius: 50%;
+    width: 60%;
+}
+.items p {
+    color: #f0304d;
+    font-size: 20px;
+}
+.items h2 {
+    color: #222f3e;
+}
+.items {
+    box-shadow: 1px 1px 10px #c8d6e5;
+    margin-left: 20px;
+}
