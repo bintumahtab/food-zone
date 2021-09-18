@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+.header-container {
+    display: flex;
+}
+.header-half {
+    width: 50%;
+}
+.header-half h1 span {
+    color: #f1314f;
+    font-size: 40px;
+}
+.header-half .same {
+    color: #2f3542;
+}
+.header-half .one {
+    font-size: 30px;
+    margin-top: 0;
+    width: 50%;
+}
+.header-half .two {
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+.header-half img {
+    width: 75%;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
