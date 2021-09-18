@@ -4,6 +4,7 @@ body {
 }
 .header-container {
     display: flex;
+    padding-left: 50px;
 }
 .header-half {
     width: 50%;
@@ -18,22 +19,23 @@ body {
 .header-half .one {
     font-size: 30px;
     margin-top: 0;
-    width: 50%;
+    width: 35%;
 }
 .header-half .two {
-    margin-top: 0;
-
+    margin-bottom: 40px;;
 }
-
-
-
-
-
-
-
-
+.header-half a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, #ff6b81, #f23250);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
 .header-half img {
-    width: 75%;
+    width: 60%;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
