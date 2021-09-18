@@ -24,7 +24,7 @@ body {
 .header-half .two {
     margin-bottom: 50px;;
 }
-.header-half a {
+.link-button {
     text-decoration: none;
     color: black;
     background-image: linear-gradient(to right, #ff6b81, #f23250);
@@ -32,10 +32,36 @@ body {
     padding: 12px 22px;
     font-size: 14px;
     color: #FFFFFF;
-    
 }
 .header-half img {
     width: 60%;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
+
+
+
+
+
+.about-container {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 70px;
+    background-image: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+}
+.about-half {
+    width: 50%;
+}
+.about-half img {
+    width: 40%;
+
+}
+
+
+
+
+
+
+
+
