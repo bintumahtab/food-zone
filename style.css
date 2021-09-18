@@ -22,7 +22,7 @@ body {
     width: 35%;
 }
 .header-half .two {
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
 }
 .link-button {
     text-decoration: none;
@@ -48,17 +48,22 @@ body {
     background-image: url(images/about-bg.jpg);
     background-repeat: no-repeat;
     margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .about-half {
     width: 50%;
 }
 .about-half img {
-    width: 40%;
+    width: 80%;
     margin-top: 20px;
 }
 .about-half h1 {
     color: #2d3436;
     font-size: 35px;
+}
+.about-half h1 span {
+    color: #f0304d;
 }
 .about-half p {
     width: 60%;
@@ -70,6 +75,7 @@ body {
 
 .recipie-container {
     text-align: center;
+    margin-bottom: 50px;
 }
 .recipie h2 {
     text-align: center;
@@ -103,4 +109,55 @@ body {
 .items {
     box-shadow: 1px 1px 10px #c8d6e5;
     margin-left: 20px;
+}
+
+
+
+.contact-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact {
+    font-size: 20px;
+    color: #222f3e;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+form input {
+    font-size: 25px;
+    margin-right: 10px;
+}
+form span {
+    font-size: 20px;
+}
+form a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #f74662;
+    padding: 4px 50px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+
+
+.footer-container {
+    text-align: center;
+    background-color: #1e272e;
+}
+.footer-container h1 {
+    color: #f1314f;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer-container p {
+    color: #d2dae2;
+    padding-bottom: 50px;
+}
+.footer-container p a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: #d2dae2
 }
