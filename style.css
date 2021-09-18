@@ -45,7 +45,7 @@ body {
 
 .about-container {
     display: flex;
-    padding-left: 100px;
+    padding-left: 150px;
     margin-top: 70px;
     background-image: url(images/about-bg.jpg);
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
 }
 .about-half img {
     width: 40%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .about-half h1 {
     color: #2d3436;
